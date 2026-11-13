@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ankita Mondal, Software Developer</title>
+<meta name="description" content="Portfolio of Ankita Mondal, a software developer building MERN applications and AI-assisted tools.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#FFFDFA;--b1:#DCEAF2;--b2:#FBE6D4;--tx:#2E2118;--mu:#6B594B;--ln:#E4D8CB;--b3:#E3EBD6;--b4:#F1E7D6;--ac:#4A7530;--on:#fff;--ft:#3A271B;--fx:#F3E9DD;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1D1712;--b1:#222F37;--b2:#2D2219;--b3:#242B1F;--b4:#2A2218;--tx:#F2E8DC;--mu:#BAA996;--ln:#43372D;--ac:#9CC57A;--on:#14200C;--ft:#120D09;--fx:#E9DFD2}}
+:root[data-theme="dark"]{--bg:#1D1712;--b1:#222F37;--b2:#2D2219;--b3:#242B1F;--b4:#2A2218;--tx:#F2E8DC;--mu:#BAA996;--ln:#43372D;--ac:#9CC57A;--on:#14200C;--ft:#120D09;--fx:#E9DFD2}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-padding-top:calc(76px + env(safe-area-inset-top,0px));scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--tx);font:400 1rem/1.65 "IBM Plex Sans",system-ui,sans-serif}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:10}
+a{color:var(--ac);text-underline-offset:3px}
+a:hover{text-decoration-thickness:2px}
+:focus-visible{outline:3px solid var(--ac);outline-offset:3px}
+.w{max-width:1040px;margin:0 auto;padding:0 24px}
+h1,h2,h3{font-family:Newsreader,Georgia,serif;font-weight:500;line-height:1.15;margin:0}
+h1{font-size:clamp(2.2rem,5.4vw,3.6rem);letter-spacing:-.01em}
+h2{font-size:clamp(1.7rem,3.4vw,2.3rem);margin-bottom:28px}
+h3{font-size:1.35rem}
+p{margin:0 0 1em;max-width:62ch}
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--bg);border-bottom:1px solid var(--ln)}
+.top .w{display:flex;align-items:center;justify-content:space-between;gap:12px 24px;flex-wrap:wrap;min-height:64px}
+.brand{font:600 1.35rem Newsreader,Georgia,serif;color:var(--tx);text-decoration:none}
+nav{display:flex;gap:4px 22px;flex-wrap:wrap}
+nav a{color:var(--tx);text-decoration:none;padding:6px 0;border-bottom:2px solid transparent;font-weight:500;font-size:.95rem}
+nav a:hover{border-color:var(--ac)}
+.hero{background:var(--b1);padding:72px 0 80px}
+.hero .w{display:grid;grid-template-columns:1.15fr .85fr;gap:48px;align-items:center}
+.lead{font-size:1.15rem;color:var(--mu);margin:20px 0 28px}
+.btns{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-block;padding:11px 20px;border-radius:4px;font-weight:600;text-decoration:none;border:2px solid var(--ac)}
+.btn.p{background:var(--ac);color:var(--on)}
+.btn.s{color:var(--tx);border-color:var(--tx)}
+.btn:hover{opacity:.88}
+.mosaic{display:grid;grid-template-columns:repeat(6,1fr);gap:5px}
+.t{display:block;aspect-ratio:1;background:var(--k);transition:border-radius .3s,background-color .3s}
+#mosaic .t{cursor:pointer}
+.hint{font-size:.9rem;color:var(--mu);margin:12px 0 0}
+.mark{display:grid;grid-template-columns:repeat(3,18px);gap:2px;margin-bottom:14px}
+.form{display:grid;gap:16px}.form label{display:grid;gap:6px;font-weight:500}
+.form input,.form textarea{font:inherit;padding:11px 12px;border-radius:4px;border:1px solid rgba(243,233,221,.45);background:rgba(255,255,255,.07);color:var(--fx)}
+.form button{justify-self:start;cursor:pointer;font:inherit;font-weight:600}
+.ft .btn.p{background:#9CC57A;border-color:#9CC57A;color:#14200C}
+.ft :focus-visible{outline-color:#9CC57A}
+.ct{align-items:start}#st{margin:0;min-height:1.6em}
+.tl{border-radius:100% 0 0 0}.tr{border-radius:0 100% 0 0}.br{border-radius:0 0 100% 0}.bl{border-radius:0 0 0 100%}.c{border-radius:50%}
+.sec{padding:72px 0}
+.alt{background:var(--b2)}.sage{background:var(--b3)}.sand{background:var(--b4)}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:48px}
+dl{margin:0}
+dl div{display:grid;grid-template-columns:120px 1fr;gap:16px;padding:12px 0;border-top:1px solid var(--ln)}
+dt{font-weight:600}dd{margin:0;color:var(--mu)}
+.proj{display:grid;grid-template-columns:1fr 1.6fr;gap:12px 40px;padding:28px 0;border-top:1px solid var(--ln)}
+.proj:last-child{border-bottom:1px solid var(--ln)}
+.proj .s{color:var(--mu);font-size:.95rem;margin:0}
+.proj ul,.links{list-style:none;margin:0;padding:0;display:flex;gap:6px 20px;flex-wrap:wrap}
+.proj .ctx{color:var(--mu);font-size:.95rem;margin:6px 0 0}
+.job{display:grid;grid-template-columns:200px 1fr;gap:8px 40px;padding:24px 0;border-top:1px solid var(--ln)}
+.alt .job{border-color:rgba(120,90,60,.3)}
+.job .d{color:var(--mu);font-size:.95rem}
+.job h3+p{margin:4px 0 10px;color:var(--mu)}
+.sc{overflow-x:auto}
+table{border-collapse:collapse;width:100%;min-width:560px}
+th,td{text-align:left;padding:12px 16px 12px 0;border-top:1px solid var(--ln);vertical-align:top}
+th{font-weight:600;border-top:0;border-bottom:2px solid var(--tx)}
+td:last-child,th:last-child{white-space:nowrap}
+.code{display:flex;gap:48px;flex-wrap:wrap;align-items:baseline}
+.big{font:500 2.6rem/1 Newsreader,Georgia,serif}
+.big span{display:block;font:400 .95rem "IBM Plex Sans",sans-serif;color:var(--mu);margin-top:6px}
+.ft{background:var(--ft);color:var(--fx);padding:64px 0 32px}
+.ft a{color:var(--fx)}
+.ft h2{margin-bottom:12px}
+.ft .links{font-size:1.1rem;margin:24px 0 56px;gap:10px 28px}
+.ft small{display:block;border-top:1px solid rgba(243,233,221,.25);padding-top:20px;opacity:.8}
+@media(max-width:820px){.hero .w,.cols,.proj,.job{grid-template-columns:1fr}.hero{padding:48px 0}.sec{padding:52px 0}.mosaic{max-width:340px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header class="top"><div class="w">
+<a class="brand" href="#top">Ankita Mondal</a>
+<nav aria-label="Main">
+<a href="#about">About</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#certifications">Certifications</a><a href="#contact">Contact</a>
+</nav></div></header>
+
+<main id="top">
+<section class="hero"><div class="w">
+<div>
+<h1>Software developer building MERN applications and AI-assisted tools.</h1>
+<p class="lead">I’m Ankita, a third-year BCA student in Kolkata. I build full-stack web apps and add AI where it helps the person using them.</p>
+<div class="btns"><a class="btn p" href="#projects">See my projects</a><a class="btn s" href="https://www.linkedin.com/in/ankitaamondal" target="_blank" rel="noopener">LinkedIn profile</a></div>
+</div>
+<div><div class="mosaic" id="mosaic" aria-hidden="true"></div><p class="hint">Click a tile to change it.</p></div>
+</div></section>
+
+<section class="sec" id="about"><div class="w">
+<h2>About</h2>
+<div class="cols">
+<div>
+<p>I study Bachelor of Computer Applications at Sister Nivedita University, graduating in 2028. Most of what I build is full-stack JavaScript with React, Node and MongoDB, plus Python when a project needs data or machine learning.</p>
+<p>My projects so far cover interview practice, study planning, resume review and cloud waste analysis. Outside coursework I contribute to open-source projects and work through cloud and AI training.</p>
+</div>
+<dl>
+<div><dt>Frontend</dt><dd>React, Vite, JavaScript, HTML, CSS, Tailwind CSS</dd></div>
+<div><dt>Backend</dt><dd>Node.js, Express, MongoDB, FastAPI, PHP, MySQL, Supabase</dd></div>
+<div><dt>AI and data</dt><dd>Groq API, scikit-learn, OCR with pytesseract, pandas, Streamlit, pytest</dd></div>
+<div><dt>Cloud</dt><dd>Google Cloud skill badges, Terraform, AWS Educate</dd></div>
+<div><dt>Tools</dt><dd>Git, GitHub, Vercel</dd></div>
+</dl>
+</div></div></section>
+
+<section class="sec alt" id="projects"><div class="w">
+<h2>Projects</h2>
+
+<article class="proj"><div><h3>Green FinOps Dashboard</h3><p class="ctx">1M1B AI for Sustainability internship, with IBM SkillsBuild and AICTE</p></div>
+<div><p>Finds idle cloud compute and forgotten storage in telemetry data, then measures the waste in dollars and kilograms of CO₂e and writes plain-English fixes for developers. Carbon figures use the Cloud Carbon Footprint power model, and detection precision and recall are tested against labelled data.</p>
+<p class="s">Built with Python, Streamlit, pandas, pytest</p>
+<ul><li><a href="https://github.com/ankita-mondal28/green-finops-dashboard" target="_blank" rel="noopener">Code on GitHub</a></li></ul></div></article>
+
+<article class="proj"><div><h3>Margin, AI Resume Parser</h3><p class="ctx">Internship project at Pinnacle Labs</p></div>
+<div><p>Reads a resume in PDF, DOCX, PNG or JPG, scores it from 0 to 100 and suggests two to four fitting job roles. The result appears as an annotated paper with a hand-drawn score circle and sticky-note comments in the margin. Uploads are size-capped, renamed and deleted right after processing.</p>
+<p class="s">Built with React, Vite, FastAPI, Groq API, pdfplumber, python-docx, pytesseract</p>
+<ul><li><a href="https://github.com/ankita-mondal28/margin-resume-parser" target="_blank" rel="noopener">Code on GitHub</a></li></ul></div></article>
+
+<article class="proj"><div><h3>InterviewIQ</h3><p class="ctx">AI mock interview platform</p></div>
+<div><p>A practice space for interviews, with AI-generated questions and feedback, accounts and saved sessions.</p>
+<p class="s">Built with React, Vite, Supabase, Groq, Tailwind CSS</p>
+<ul><li><a href="https://theinterviewiq.vercel.app" target="_blank" rel="noopener">Open live site</a></li><li><a href="https://github.com/ankita-mondal28/theinterviewiq" target="_blank" rel="noopener">Code on GitHub</a></li></ul></div></article>
+
+<article class="proj"><div><h3>Planr</h3><p class="ctx">AI study planner, EI Systems internship project</p></div>
+<div><p>Turns subjects and deadlines into a study plan using the Groq API. Delivered with a formal internship report.</p>
+<p class="s">Built with JavaScript, Vite, Groq API</p>
+<ul><li><a href="https://planr-by-ankita.vercel.app" target="_blank" rel="noopener">Open live site</a></li><li><a href="https://github.com/ankita-mondal28/study-planner" target="_blank" rel="noopener">Code on GitHub</a></li></ul></div></article>
+
+<article class="proj"><div><h3>Aether</h3><p class="ctx">Weather app</p></div>
+<div><p>Shows forecasts on an interactive map with charts for temperature and conditions.</p>
+<p class="s">Built with JavaScript, Open-Meteo, Leaflet, Chart.js</p>
+<ul><li><a href="https://aether-by-ankita.vercel.app" target="_blank" rel="noopener">Open live site</a></li><li><a href="https://github.com/ankita-mondal28/aether-weather" target="_blank" rel="noopener">Code on GitHub</a></li></ul></div></article>
+
+<article class="proj"><div><h3>Heart Disease Classifier</h3><p class="ctx">Machine learning classification pipeline</p></div>
+<div><p>Predicts heart disease risk from 13 clinical attributes of 303 patients in the Kaggle Heart Disease UCI dataset. The pipeline covers cleaning, exploratory analysis, feature engineering and training of Logistic Regression and Decision Tree models tuned with GridSearchCV. Results are judged with a confusion matrix, ROC-AUC, precision, recall and F1-score.</p>
+<p class="s">Built with Python, scikit-learn</p>
+<ul><li><a href="https://github.com/ankita-mondal28/heart-disease-classifier" target="_blank" rel="noopener">Code on GitHub</a></li></ul></div></article>
+</div></section>
+
+<section class="sec sage" id="experience"><div class="w">
+<h2>Experience and education</h2>
+<div class="job"><div class="d">May 2026 to Sep 2026</div>
+<div><h3>Open Source Contributor</h3><p>GirlScript Summer of Code</p>
+<p>Merged pull requests across AI and automation projects: iloveagents, commitpulse and business-ai-agent. Built a Home Buying Checklist Agent, added automated 3-day PR reminders and configured WhatsApp API HTTP timeouts.</p></div></div>
+<div class="job"><div class="d">May 2026 to Jul 2026, remote</div>
+<div><h3>Web Development Intern</h3><p>EISystems Technologies</p>
+<p>Gained practical experience in front-end web development and AI integration, and built Planr as the internship project.</p></div></div>
+<div class="job"><div class="d">Jul 2024 to Jul 2028</div>
+<div><h3>Bachelor of Computer Applications</h3><p>Sister Nivedita University, Kolkata</p></div></div>
+</div></section>
+
+<section class="sec sand" id="certifications"><div class="w">
+<h2>Certifications</h2>
+<div class="sc"><table>
+<thead><tr><th scope="col">Credential</th><th scope="col">Issuer</th><th scope="col">Issued</th></tr></thead>
+<tbody>
+<tr><td>AI for Cybersecurity</td><td>IBM SkillsBuild and AICTE, Edunet Foundation</td><td>Nov 2026</td></tr>
+<tr><td>Data Analytics</td><td>EdBytes Lab</td><td>Oct 2026</td></tr>
+<tr><td>AI for Sustainability</td><td>1M1B (1 Million for 1 Billion)</td><td>Sep 2026</td></tr>
+<tr><td>Make Agentic AI Work for You</td><td>IBM SkillsBuild</td><td>Aug 2026</td></tr>
+<tr><td>Monitor and Manage Google Cloud Resources, skill badge</td><td>Google Cloud</td><td>Jul 2026</td></tr>
+<tr><td>Build Infrastructure with Terraform on Google Cloud, skill badge</td><td>Google Cloud</td><td>Jul 2026</td></tr>
+<tr><td>Secure Software Delivery, skill badge</td><td>Google Cloud</td><td>Jul 2026</td></tr>
+<tr><td>Career Essentials in Generative AI</td><td>Microsoft and LinkedIn</td><td>Jul 2026</td></tr>
+<tr><td>Software Engineering Job Simulation</td><td>Quantium, on Forage</td><td>Jul 2026</td></tr>
+<tr><td>Introduction to Generative AI, training badge</td><td>AWS Educate</td><td>Jul 2026</td></tr>
+<tr><td>Getting Started with Artificial Intelligence</td><td>IBM SkillsBuild</td><td>Jun 2026</td></tr>
+<tr><td>AI Fluency for Students</td><td>Anthropic</td><td>May 2026</td></tr>
+<tr><td>Google AI Essentials</td><td>Google, on Coursera</td><td>Feb 2026</td></tr>
+</tbody></table></div>
+<p style="margin-top:20px">Badges are listed on my <a href="https://www.credly.com/users/ankita-mondal28" target="_blank" rel="noopener">Credly profile</a>.</p>
+</div></section>
+
+<section class="sec" id="coding"><div class="w">
+<h2>Problem solving</h2>
+<div class="code">
+<div class="big">432<span>LeetCode submissions in the past year</span></div>
+<div class="big">598,492<span>LeetCode global rank</span></div>
+</div>
+<p style="margin-top:24px"><a href="https://leetcode.com/u/ankita_m07" target="_blank" rel="noopener">View my LeetCode profile</a></p>
+</div></section>
+</main>
+
+<footer class="ft" id="contact"><div class="w">
+<div class="cols ct"><div>
+<h2>Get in touch</h2>
+<p>Leave a note using the form, or write to me at <a href="mailto:ankitamondal2801@gmail.com" target="_blank" rel="noopener">ankitamondal2801@gmail.com</a>. My profiles are linked below.</p>
+<ul class="links">
+<li><a href="https://www.linkedin.com/in/ankitaamondal" target="_blank" rel="noopener">LinkedIn</a></li>
+<li><a href="https://github.com/ankita-mondal28" target="_blank" rel="noopener">GitHub</a></li>
+<li><a href="https://leetcode.com/u/ankita_m07" target="_blank" rel="noopener">LeetCode</a></li>
+<li><a href="https://www.credly.com/users/ankita-mondal28" target="_blank" rel="noopener">Credly</a></li>
+<li><a href="https://linktr.ee/meetankita" target="_blank" rel="noopener">Linktree</a></li>
+</ul></div>
+<form class="form" id="msg" novalidate>
+<label>Your name<input name="name" required autocomplete="name"></label>
+<label>Your email, so I can reply<input name="email" type="email" autocomplete="email" required></label>
+<label>Message<textarea name="message" rows="5" required></textarea></label>
+<button class="btn p" type="submit">Send message</button>
+<p id="st" role="status"></p>
+</form></div>
+<small>© <span id="yr">2026</span> Ankita Mondal. Written by hand in HTML, CSS and a little JavaScript.</small>
+</div></footer>
+
+<script>
+(function(){
+var m=document.getElementById('mosaic'),s=11;
+function r(){s=(s*16807)%2147483647;return s/2147483647}
+var cols=['#F2C9A8','#9CC1D6','#6E8F4E','#7A5238','#E8D5B0','#B7C79A','#C98F6B','#A9BFD0'],sh=['','tl','tr','br','bl','c'];
+for(var i=0;i<30;i++){
+var t=document.createElement('i');
+t.className='t '+sh[Math.floor(r()*sh.length)];
+t.style.setProperty('--k',cols[Math.floor(r()*cols.length)]);
+m.appendChild(t);
+}
+m.addEventListener('click',function(e){
+var t=e.target;if(!t.classList.contains('t'))return;
+var i=0;for(var j=1;j<sh.length;j++){if(t.classList.contains(sh[j]))i=j}
+t.className='t '+sh[(i+1)%sh.length];
+t.style.setProperty('--k',cols[Math.floor(r()*cols.length)]);
+});
+document.querySelectorAll('.proj').forEach(function(p){
+var h=p.querySelector('h3'),x=h.textContent,q=1;
+for(var i=0;i<x.length;i++)q=(q*31+x.charCodeAt(i))%2147483647;
+var d=document.createElement('div');d.className='mark';d.setAttribute('aria-hidden','true');
+for(var k=0;k<9;k++){
+q=(q*16807)%2147483647;var a=q/2147483647;
+q=(q*16807)%2147483647;var b=q/2147483647;
+var t=document.createElement('i');
+t.className='t '+sh[Math.floor(a*sh.length)];
+t.style.setProperty('--k',cols[Math.floor(b*cols.length)]);
+d.appendChild(t);
+}
+h.parentNode.insertBefore(d,h);
+});
+document.getElementById('yr').textContent=new Date().getFullYear();
+
+/* Contact form, sent through Web3Forms to the inbox tied to the access key. */
+var KEY='3011cb10-68bc-40fe-97b1-162f93b9dadf',TO='ankitamondal2801@gmail.com';
+var f=document.getElementById('msg'),st=document.getElementById('st');
+f.addEventListener('submit',function(e){
+e.preventDefault();
+var name=f.name.value.trim(),email=f.email.value.trim(),message=f.message.value.trim();
+if(!name||!email||!message){st.textContent='Please add your name, email and a message.';return}
+if(!KEY){
+st.textContent='Opening your email app.';
+location.href='mailto:'+TO+'?subject='+encodeURIComponent('Message from '+name)+'&body='+encodeURIComponent(message+'\n\n'+name+(email?'\n'+email:''));
+return;
+}
+st.textContent='Sending.';
+fetch('https://api.web3forms.com/submit',{method:'POST',headers:{'Accept':'application/json','Content-Type':'application/json'},body:JSON.stringify({access_key:KEY,subject:'Portfolio message from '+name,name:name,email:email,message:message})})
+.then(function(res){return res.json()}).then(function(d){if(!d.success)throw 0;f.reset();st.textContent='Thank you, your message has been sent.'})
+.catch(function(){st.textContent='That did not send. Please email '+TO+' directly.'});
+});
+})();
+</script>
+</body>
+</html>
